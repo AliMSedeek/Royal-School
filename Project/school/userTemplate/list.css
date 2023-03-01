@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300);
+
+.profile-card * ,
+.profile-card *:before ,
+.profile-card *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.profile-card {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 200px;
+    margin: 20px auto;
+    width: 320px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.profile-card header {
+    background: #5161ce;
+    padding: 1px;
+    height: 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.profile-card header img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 120px;
+}
+
+.profile-card header h1 {
+    color: #5161ce;
+    font-family: "Open Sans";
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.profile-card header h2 {
+    color: #5161ce;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 0 0 5px;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.profile-card .profile-bio {
+    padding: 20px;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: all 0.3s 0.25s;
+    -moz-transition: all 0.3s 0.25s;
+    -o-transition: all 0.3s 0.25s;
+    transition: all 0.3s 0.25s;
+    background-color: #fff;
+}
+
+.profile-card .profile-bio p {
+    color:#5161ce;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    font-family:  "Open Sans";
+}
+
+.profile-card:hover {
+    height: 300px;
+}
+.profile-card:hover header {
+    height: 200px;
+}
+
+.profile-card:hover header h1,
+.profile-card:hover header h2 {
+    color: #fff;
+}
+
+.profile-card:hover .profile-bio {
+    opacity: 1;
+}
+
+#bigImage h4{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    top: 30px;
+}
+
+#bigImage h4 i{
+    color: #5161ce;
+    font-size: 30px;
+}
